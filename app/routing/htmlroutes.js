@@ -8,7 +8,7 @@ module.exports = function(app) {
 	
 // HTML GET request to home page
 	app.get("/", function(req, res) {
-		res.sendFile(path.join(__dirname, "..public/home.html"));
+		res.sendFile(path.join(__dirname, "../public/home.html"));
 	});
 // include two routes:
 // A GET Route to /survey which should display the survey page.

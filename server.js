@@ -21,8 +21,8 @@ app.use(bodyParser.json())
 
 
 // Require route files for the server
-require("./routing/apiroutes.js")(app);
-require("./routing/htmlroutes.js")(app);
+require("./app/routing/apiroutes.js")(app);
+require("./app/routing/htmlroutes.js")(app);
 
 
 // Start the server
